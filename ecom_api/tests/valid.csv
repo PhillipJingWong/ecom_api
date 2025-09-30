@@ -1,0 +1,2 @@
+transaction_id,user_id,product_id,timestamp,transaction_amount
+aaa1,1,99,10/09/2025 01:00:00,42
