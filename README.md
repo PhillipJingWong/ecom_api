@@ -3,7 +3,7 @@
 This API enables users to upload a CSV dataset file, which then allows them to query it in order to get summary statistics (max, min and mean) for a specific user's transactions within specified dates.
 
 To use:  
-Change directory to ecom_api. 
+Change directory to ecom_api.  
 Run: uvicorn app.main:app --reload
 
 <h3>Endpoints:</h3>
