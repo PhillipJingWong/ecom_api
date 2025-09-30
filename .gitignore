@@ -1,31 +1,31 @@
-# Python
+#Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.Python
 
-# Virtualenv
+#Virtualenv
 .venv/
-venv/
-ENV/
 
-# IDEs
+#IDEs
 .vscode/
 *.code-workspace
 .idea/
 
-# OS
+#OS
 .DS_Store
 Thumbs.db
 
-# Tests output
+#Data and uploads
+uploads/
+*.sqlite3
+*.db
+*.csv
+!tests/*.csv
+
+#Tests output
 htmlcov/
 .coverage
 
-# Pipenv / poetry
-Pipfile.lock
-poetry.lock
-
-# Misc
+#Misc
 .env
