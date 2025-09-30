@@ -3,8 +3,15 @@
 This API enables users to upload a CSV dataset file, which then allows them to query it in order to get summary statistics (max, min and mean) for a specific user's transactions within specified dates.
 
 To use:  
+(Preferably setup a virtual environment):  
+python -m venv .venv  
+source .venv/bin/activate (mac/linux)  
+pip install -r requirements.txt
+
 Change directory to ecom_api.  
 Run: uvicorn app.main:app --reload
+
+Test at: http://127.0.0.1:8000/docs (Swagger automatic docs)
 
 <h3>Endpoints:</h3>
 
